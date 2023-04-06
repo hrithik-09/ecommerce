@@ -1,4 +1,6 @@
 import React from "react";
+import BreadCrumb from "../components/BreadCrumb";
+import Meta from "../components/Meta";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import Blogcard from "../components/Blogcard";
@@ -7,6 +9,8 @@ import Specialproduct from "../components/Specialproduct";
 const Home = () => {
   return (
     <>
+    <Meta title={"Home"} />
+      <BreadCrumb title="Home" />
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">
