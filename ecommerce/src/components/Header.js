@@ -92,9 +92,9 @@ const Header = () => {
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
                 <div>
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <button
-                      class="btn btn-secondary dropdown-toggle bg-transparent border-0 align-items-center gap-15 d-flex"
+                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 align-items-center gap-15 d-flex"
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -102,7 +102,7 @@ const Header = () => {
                      <img src="images/menu.svg" alt="" />
                      <span className="me-3 d-inline-block">Shop Categories</span>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                       <li>
                         <Link className="dropdown-item text-white" to="">
                           Action
@@ -124,7 +124,7 @@ const Header = () => {
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/">Our Store</NavLink>
+                    <NavLink to="/store">Our Store</NavLink>
                     <NavLink to="/">Blogs</NavLink>
                     <NavLink to="/">Contact</NavLink>
                   </div>
